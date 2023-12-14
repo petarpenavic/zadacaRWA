@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Varijable</title>
+</head>
+<body>
+    <h2> BROJ VJEŽBE : 4.1 <br> 
+         NAZIV VJEŽBE : JAVASCRIPT OSNOVE I FUNKCIJE 
+    </h2>
+    
+    <h4> Zadatak 1
+        <br>
+        b.	Deklarirajte varijablu Broj i dodijelite joj vrijednost 19. <br>
+        c.	Deklarirajte varijablu Niz1 i dodijelite joj vrijednost 'Niz znakova'. <br>
+        d.	Deklarirajte varijablu Niz2 i dodijelite joj vrijednost '3.14'. <br> 
+        e.	Deklarirajte varijablu Niz3 i dodijelite joj vrijednost 'U dva<br/>retka'. <br>
+        f.	Deklarirajte varijablu Logicka i dodijelite joj vrijednost true. <br>
+        g.	Vrijednosti ispišite pomoću funkcije document.write. <br>
+        h.	Promijenite vrijednost varijable bLogicka u false te ju ponovo ispišite.
+    </h4>
+    <script src="vjezbe04-dz-z01.js"></script>
+    
+    <h4> Zadatak 2
+        <br>
+        Napisati JS program koji u konzolu i u html dokument ispisuje 
+        parne brojeve od 1 do 100 i njihove kvadrate.
+    </h4>
+    <script src="vjezbe04-dz-z02.js"></script>
+    
+    <h4> Zadatak 3
+        <br>
+        Napisati JS program koji u konzolu i html dokument ispisuje 
+        proste brojeve od 1 do 1000 (u browseru svaki put u novom retku).
+    </h4>
+    <script src="vjezbe04-dz-z03.js"></script>
+    
+    <h4> Zadatak 4
+        <br>
+        U Javascriptu imate polje koji je inicijalno zadano/deklarirano  kao:
+        polje = new Array(1, 2, 3, 4, 7, 8, 5, 6, 9, 55, 12, 4, 85);
+        Pomoću metoda za rukovanje poljem tipom podataka, uraditi ispis u browser: <br/>
+        a.	Ispisati koliko je inicijalna dužina polja polje <br/>
+        b.	Ispisati polje ali sortirano s vrijednostima od najvećeg ka najmanjem <br/>
+        c.	Ispisati polje ali  sortirano s vrijednostima od najmanjeg ka najvećem <br/>
+        d.	U sortiranom polju iz c. ukloniti zadnji član polja <br/>
+        e.	U polju iz d. dodati na kraj polja nova dva člana polja s vrijednostima 19 i 22 <br/>
+        f.	Definirajte novo polje polje2 s članovima "Banana", "Orange", "Apple", "Mango". 
+            Nakon toga  spojite polje i polje2 u novo polje naziva polje_final i ispišite 
+            njegove vrijednosti, na proizvoljan način.
+    </h4>
+    <script src="vjezbe04-dz-z04.js"></script>
+
+    <h4> Zadatak 5
+        <br>
+        U JS kreirajte novi objekt s članovima
+        firstName:"Marko", lastName:"Maric", age:40, eyeColor:"black"
+        Definirajte još nekoliko objekata s sličnim indeksima i različitim 
+        vrijednostima. Putem neke od petlji ispišite vrijednosti i indekse objekata u browser.
+    </h4>
+    <script src="vjezbe04-dz-z05.js"></script>
+
+    <h4> Zadatak 6
+        <br>
+        Kreirati objekat pas čije je ime Reks i ima 2 godine. 
+        Nakon kreiranja objekta dodati mu i funkcijsku osobinu "zvuk", 
+        koja prilikom poziva vraća  vrijednost "AV AV"!
+    </h4>
+    <script src="vjezbe04-dz-z06.js"></script>
+    
+    <h4> Zadatak 7
+        <br>
+        Napravite anonimnu funkciju i postavite je kao vrijednost varijable. Naša bi funkcija trebala raditi na ovaj način: 
+        <br>
+        •	Ako je proslijeđen broj, vraća kvadrat tog broja;
+        <br>
+        •	Inače vraća obavijest o pogrešci.
+    </h4>
+    <script src="vjezbe04-dz-z07.js"></script>
+
+    <h4> Zadatak 8
+        <br>
+        Napisati JS funkciju koja za zadano ulazno polje (array of strings), kreira novo polje (array of strings) 
+        i ispiše ga, a koje sadrži samo one vrijednosti (nizove) unutar polja s velikim slovima (najmanje 1)
+        ili vrijednosti koji su sadržavali 5 ili više slova/brojeva;
+        •	Primjer polja
+        var arr = ["Ovo", "je", "My", "prvi", "komad", "OF", "JAVASCRIPT", "koda", "Koji", " ", "je", "proradio"];
+    </h4>
+    <script src="vjezbe04-dz-z08.js"></script>
+
+    <h4> Zadatak 9
+        <br>
+        Napisati javascript funkciju koja ima jedan ulazni argument koji je broj. 
+        <br>
+        Funkcija zatim ispisuje sve savršene brojeve od broja 1 do toga broja.
+    </h4>
+    <script src="vjezbe04-dz-z09.js"></script>
+
+    <h4> Zadatak 10
+        <br>
+        Napisati javascript funkciju koja ima dva ulazna argumenta koji su brojevi. 
+        <br>
+        Funkcija zatim ispisuje pet random brojeva između ta dva broja.  
+    </h4>
+    <script src="vjezbe04-dz-z10.js"></script>
+
+    <h4> Zadatak 11
+        <br>
+        Ulazno polje ima format:
+        const tempDay = 
+        ["2023-11-29", -1, 0, -0.5, 0.5, 0, 1.2, 1.8, 2, 3, 4, 6, 9, 12, 7, 6, 6, 8, 5, 4, 2, 3, 2, 1, 0];
+        <br>
+        Polje sadrži datum i vrijednosti temperature kroz 24 sata. 
+        <br>
+        Napisati funkciju koja obrađuje ovo ulazno polje, a ispisuje u konzoli: 
+        datum, najmanju i najveću dnevnu temperaturu, te prosječnu temperaturu za taj dan.
+    </h4>
+    <script src="vjezbe04-dz-z11.js"></script>
+
+ </body>
+</html>
